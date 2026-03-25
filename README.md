@@ -7,7 +7,7 @@ It includes hypothesis testing, confidence intervals, and statistical analysis u
 
 The project is divided into two parts:
 
-* **Part A** → Theory (PDF document)
+* **Part A** → Theory
 * **Part B** → Practical implementation using Python (Jupyter Notebook)
 
 ---
@@ -32,7 +32,6 @@ The dataset contains **1200 synthetic health records** with the following featur
 * Pandas
 * NumPy
 * SciPy
-* ReportLab (for PDF generation)
 
 ---
 
@@ -49,8 +48,6 @@ The theoretical section covers:
 * Chi-Square Test
 * ANOVA
 * Correlation & Covariance
-
-📄 Output File: `Part_A_Inferential_Statistics.pdf`
 
 ---
 
@@ -142,32 +139,6 @@ The theoretical section covers:
 │
 ├── health_dataset.csv
 ├── health_analysis_notebook.ipynb
-├── Part_A_Inferential_Statistics.pdf
-├── generate_pdf.py
-└── README.md
-```
-
----
-
-## 🚀 How to Run the Project
-
-### 1. Clone Repository
-
-```bash
-git clone <your-repo-link>
-cd Inferential-Statistics-Project
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install pandas numpy scipy reportlab
-```
-
-### 3. Run Notebook
-
-```bash
-jupyter notebook
 ```
 
 ---
@@ -176,18 +147,8 @@ jupyter notebook
 
 This project demonstrates how inferential statistics can be used to:
 
-* Analyze real-world-like data
-* Test hypotheses
-* Draw meaningful conclusions
+* Analyze data
+* Perform hypothesis testing
+* Draw conclusions using statistical methods
 
 ---
-
-## 👨‍💻 Author
-
-**Your Name**
-
----
-
-## ⭐ Acknowledgment
-
-This project was developed as part of an academic assignment to understand statistical analysis using Python.
